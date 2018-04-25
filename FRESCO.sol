@@ -41,7 +41,7 @@ contract FrescoToken is IERC20 {
         balances[_team] = totalSupply.mul(20).div(100);
     }
     
-    function buyTokens()
+    function ()
         external 
         payable
         contractActive
